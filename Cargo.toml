@@ -11,5 +11,5 @@ keywords = ["diesel", "bb8", "r2d2", "pool", "tokio", "async"]
 [dependencies]
 bb8 = "0.7"
 async-trait = "0.1.42"
-diesel = { version = "1.4.8", default-features = false, features = [ "r2d2" ], git = "https://github.com/Charles-Johnson/diesel.git", branch = "v1.4.8-patch" }
+diesel = { version = "1.4.8", default-features = false, features = [ "r2d2" ] }
 tokio = { version = "1.0", default-features = false, features = [ "rt-multi-thread" ] }
